@@ -1,0 +1,90 @@
+[2021-10-28 00:52:16] [ ERROR] [TestLog:16] A idade não pode ser negativa
+ Excecao
+	at Tigre.eMaiorQue10(Tigre.java:19)
+	at TestLog.main(TestLog.java:14)
+[2021-10-28 01:05:59] [ INFO ] [TestLog:10] O tigre lulu está correndo
+ [2021-10-28 01:05:59] [ INFO ] [TestLog:11] O tigre vava está correndo
+ [2021-10-28 01:05:59] [ ERROR] [TestLog:17] A idade não pode ser negativa
+ Excecao: A idade do tigre vava está incorreta
+	at Tigre.eMaiorQue10(Tigre.java:19)
+	at TestLog.main(TestLog.java:15)
+[2021-10-28 01:11:20] [ INFO ] [TestLog:13] O tigre lulu está correndo
+ [2021-10-28 01:11:20] [ INFO ] [TestLog:14] O tigre vava está correndo
+ [2021-10-28 01:11:20] [ INFO ] [TestLog:16] O leão mufasa está correndo
+ [2021-10-28 01:11:20] [ INFO ] [TestLog:17] O leão scar está correndo
+ [2021-10-28 01:11:20] [ ERROR] [TestLog:28] A idade não pode ser negativa
+ Excecao: A idade do tigre vava está incorreta
+	at Tigre.eMaiorQue10(Tigre.java:19)
+	at TestLog.main(TestLog.java:22)
+[2021-10-28 01:14:52] [ INFO ] [TestLog:13] O tigre lulu está correndo
+ [2021-10-28 01:14:52] [ INFO ] [TestLog:14] O tigre vava está correndo
+ [2021-10-28 01:14:52] [ INFO ] [TestLog:16] O leão mufasa está correndo
+ [2021-10-28 01:14:52] [ INFO ] [TestLog:17] O leão scar está correndo
+ [2021-10-28 01:14:52] [ ERROR] [TestLog:28] A idade não pode ser negativa
+ Excecao: A idade do tigre vava está incorreta
+	at Tigre.eMaiorQue10(Tigre.java:19)
+	at TestLog.main(TestLog.java:22)
+[2021-10-28 01:15:59] [ INFO ] [TestLog:13] O tigre lulu está correndo
+ [2021-10-28 01:15:59] [ INFO ] [TestLog:14] O tigre vava está correndo
+ [2021-10-28 01:15:59] [ INFO ] [TestLog:16] O leão mufasa está correndo
+ [2021-10-28 01:15:59] [ INFO ] [TestLog:17] O leão scar está correndo
+ [2021-10-28 01:16:48] [ INFO ] [TestLog:16] O leão mufasa está correndo
+ [2021-10-28 01:16:48] [ INFO ] [TestLog:17] O leão scar está correndo
+ [2021-10-28 01:17:02] [ INFO ] [TestLog:16] O leão mufasa está correndo
+ [2021-10-28 01:17:02] [ INFO ] [TestLog:17] O leão scar está correndo
+ [2021-10-28 01:17:02] [ ERROR] [TestLog:28] A idade não pode ser negativa
+ Excecao: A idade do tigre vava está incorreta
+	at Tigre.eMaiorQue10(Tigre.java:19)
+	at TestLog.main(TestLog.java:22)
+[2021-10-28 01:17:51] [ INFO ] [TestLog:13] O tigre lulu está correndo
+ [2021-10-28 01:17:51] [ INFO ] [TestLog:14] O tigre vava está correndo
+ [2021-10-28 01:17:51] [ INFO ] [TestLog:16] O leão mufasa está correndo
+ [2021-10-28 01:17:51] [ INFO ] [TestLog:17] O leão scar está correndo
+ [2021-10-28 01:17:51] [ ERROR] [TestLog:28] A idade não pode ser negativa
+ Excecao: A idade do tigre vava está incorreta
+	at Tigre.eMaiorQue10(Tigre.java:19)
+	at TestLog.main(TestLog.java:22)
+[2021-10-28 01:19:04] [ INFO ] [TestLog:14] O tigre lulu está correndo
+ [2021-10-28 01:19:04] [ INFO ] [TestLog:15] O tigre vava está correndo
+ [2021-10-28 01:19:04] [ INFO ] [TestLog:17] O leão mufasa está correndo
+ [2021-10-28 01:19:04] [ INFO ] [TestLog:18] O leão scar está correndo
+ [2021-10-28 01:19:04] [ INFO ] [TestLog:19] O leão simba está correndo
+ [2021-10-28 01:19:04] [ ERROR] [TestLog:31] A idade não pode ser negativa
+ Excecao: A idade do tigre vava está incorreta
+	at Tigre.eMaiorQue10(Tigre.java:19)
+	at TestLog.main(TestLog.java:24)
+[2021-10-28 01:21:15] [ INFO ] [TestLog:14] O tigre lulu está correndo
+ [2021-10-28 01:21:15] [ INFO ] [TestLog:15] O tigre vava está correndo
+ [2021-10-28 01:21:15] [ INFO ] [TestLog:17] O leão mufasa está correndo
+ [2021-10-28 01:21:15] [ INFO ] [TestLog:18] O leão scar está correndo
+ [2021-10-28 01:21:15] [ INFO ] [TestLog:19] O leão simba está correndo
+ [2021-10-28 01:21:15] [ ERROR] [TestLog:26] A idade não pode ser negativa
+ Excecao: A idade do tigre vava está incorreta
+	at Tigre.eMaiorQue10(Tigre.java:19)
+	at TestLog.main(TestLog.java:23)
+[2021-10-28 01:22:35] [ INFO ] [TestLog:10] O tigre lulu está correndo
+ [2021-10-28 01:22:35] [ INFO ] [TestLog:11] O tigre vava está correndo
+ [2021-10-28 01:22:35] [ ERROR] [TestLog:18] A idade não pode ser negativa
+ Excecao: A idade do tigre vava está incorreta
+	at Tigre.eMaiorQue10(Tigre.java:19)
+	at TestLog.main(TestLog.java:15)
+[2021-10-28 01:22:35] [ INFO ] [TestLog:26] O leão mufasa está correndo
+ [2021-10-28 01:22:35] [ INFO ] [TestLog:27] O leão scar está correndo
+ [2021-10-28 01:22:35] [ INFO ] [TestLog:28] O leão simba está correndo
+ [2021-10-28 01:23:20] [ INFO ] [TestLog:10] O tigre lulu está correndo
+ [2021-10-28 01:23:20] [ INFO ] [TestLog:11] O tigre vava está correndo
+ [2021-10-28 01:23:20] [ ERROR] [TestLog:18] A idade não pode ser negativa
+ Excecao: A idade do tigre vava está incorreta
+	at Tigre.eMaiorQue10(Tigre.java:19)
+	at TestLog.main(TestLog.java:15)
+[2021-10-28 01:23:20] [ INFO ] [TestLog:25] O leão mufasa está correndo
+ [2021-10-28 01:23:20] [ INFO ] [TestLog:26] O leão scar está correndo
+ [2021-10-28 20:52:28] [ INFO ] [TestLog:10] O tigre lulu está correndo
+ [2021-10-28 20:52:28] [ INFO ] [TestLog:11] O tigre vava está correndo
+ [2021-10-28 20:52:28] [ ERROR] [TestLog:18] A idade não pode ser negativa
+ Excecao: A idade do tigre vava está incorreta
+	at Tigre.eMaiorQue10(Tigre.java:19)
+	at TestLog.main(TestLog.java:15)
+[2021-10-28 20:52:28] [ INFO ] [TestLog:25] O leão mufasa está correndo
+ [2021-10-28 20:52:28] [ INFO ] [TestLog:26] O leão scar está correndo
+ 
