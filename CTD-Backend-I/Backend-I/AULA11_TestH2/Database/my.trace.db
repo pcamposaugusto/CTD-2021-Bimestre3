@@ -1,0 +1,50 @@
+2021-10-29 00:09:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST" not found; SQL statement:
+INSERT INTO TEST VALUES(1, 'Hello');
+INSERT INTO TEST VALUES(2, 'World');
+ [42102-200]
+2021-10-29 00:10:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST" not found; SQL statement:
+INSERT INTO TEST VALUES(1, 'Hello');
+INSERT INTO TEST VALUES(2, 'World');
+ [42102-200]
+2021-10-29 00:10:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST" not found; SQL statement:
+INSERT INTO TEST VALUES(1, 'Hello');
+INSERT INTO TEST VALUES(2, 'World');
+ [42102-200]
+2021-10-29 00:17:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST" not found; SQL statement:
+INSERT INTO TEST VALUES(1, 'Hello');
+INSERT INTO TEST VALUES(2, 'World');
+ [42102-200]
+2021-10-29 00:18:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST" not found; SQL statement:
+INSERT INTO TEST VALUES(1, 'Hello');
+INSERT INTO TEST VALUES(2, 'World');
+ [42102-200]
+2021-10-29 00:21:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST" not found; SQL statement:
+INSERT INTO TEST VALUES(1, 'Hello');
+INSERT INTO TEST VALUES(2, 'World');
+ [42102-200]
+2021-10-29 00:23:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST" not found; SQL statement:
+INSERT INTO TEST VALUES(1, 'Hello');
+INSERT INTO TEST VALUES(2, 'World');
+ [42102-200]
+2021-10-29 11:22:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST" not found; SQL statement:
+INSERT INTO TEST VALUES(1, 'Hello');
+INSERT INTO TEST VALUES(2, 'World');
+ [42102-200]
+2021-10-29 11:26:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST" not found; SQL statement:
+INSERT INTO TEST VALUES(1, 'Hello');
+INSERT INTO TEST VALUES(2, 'World');
+ [42102-200]
+2021-10-29 12:26:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST" not found; SQL statement:
+INSERT INTO TEST VALUES(1, 'Hello');
+INSERT INTO TEST VALUES(2, 'World');
+ [42102-200]
