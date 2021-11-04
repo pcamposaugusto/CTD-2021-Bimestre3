@@ -1,0 +1,23 @@
+#galeria {
+    margin: 60px 0;
+}
+
+#galeria .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* ajusta os itens automaticamente no tamanho mínimo-máximo de 300px por coluna, deixando a página responsiva, nesse caso */
+    gap: 18px;
+    text-align: center;
+    
+}
+
+#galeria h3 {
+    color: #8cb369;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#galeria h3:hover {
+    color: #ffcb77;
+}

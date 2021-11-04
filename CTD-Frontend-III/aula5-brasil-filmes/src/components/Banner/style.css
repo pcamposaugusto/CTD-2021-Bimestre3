@@ -1,0 +1,39 @@
+#banner {
+    display: flex;
+    flex-flow: wrap;
+    align-items: flex-end;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#banner p {
+    color: #DAB594;
+    padding: 0 6rem 1rem 6rem;
+    text-align: justify;
+}
+
+#banner a {
+    width: fit-content;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: #0B0E13;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: #D9952C;
+    cursor: pointer;
+}
+
+#banner a:hover {
+    background-color: #8cb369;
+}
+
+@media (max-width: 960px) {
+    #banner p {
+        display: none;
+    }
+}
+
+

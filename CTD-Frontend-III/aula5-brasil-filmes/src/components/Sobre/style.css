@@ -1,0 +1,16 @@
+#sobre {
+    background-color: #e4ce5d;
+    color: #0B0E13;
+    padding: 4rem 6rem;
+}
+
+#sobre h3 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#sobre p {
+    color: #0B0E13;
+    font-size: 1.2rem;
+    text-align: justify;
+}
