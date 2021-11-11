@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Clínica Odontológica</title>
+</head>
+<body>
+    <div>
+        <td>Olá, paciente - </td>
+        <td th:text="${nome}">Nome: </td>
+        <td th:text="${sobrenome}">Sobrenome: </td>
+    </div>
+    <div>
+        <td>Olá, dentista - </td>
+        <td th:text="${nome}">Nome: </td>
+        <td th:text="${sobrenome}">Sobrenome: </td>
+        <td th:text="${matricula}">Matrícula: </td>
+    </div>
+</body>
+</html>
