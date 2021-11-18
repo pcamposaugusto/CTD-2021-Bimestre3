@@ -26,33 +26,33 @@ public class PacienteController {
         return ResponseEntity.ok(pacienteService.buscarPorId(id));
     }
 
-    @GetMapping
-    public Map<Integer, Paciente> buscarTodos() {
-        return pacienteService.buscarTodos();
-    }
-
-    @DeleteMapping("/{id}")
-    public ResponseEntity<String> deletar(@PathVariable Integer id) {
-        ResponseEntity<String> response = null;
-
-        if(pacienteService.buscarPorId(id) != null) {
-            pacienteService.deletar(id);
-            response = ResponseEntity.status(HttpStatus.NO_CONTENT).body("Paciente deletado(a)");
-        } else {
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("Paciente não encontrado(a)");
-        }
-        return response;
-    }
-
-    @PutMapping
-    public ResponseEntity<Paciente> atualizar(@RequestBody Paciente paciente) {
-        ResponseEntity<Paciente> response = null;
-
-        if (paciente.getId() != null && paciente.getEndereco().getId() != null)
-            response = ResponseEntity.ok(pacienteService.atualizar(paciente));
-        else
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-
-        return response;
-    }
+//    @GetMapping
+//    public Map<Integer, Paciente> buscarTodos() {
+//        return pacienteService.buscarTodos();
+//    }
+//
+//    @DeleteMapping("/{id}")
+//    public ResponseEntity<String> deletar(@PathVariable Integer id) {
+//        ResponseEntity<String> response = null;
+//
+//        if(pacienteService.buscarPorId(id) != null) {
+//            pacienteService.deletar(id);
+//            response = ResponseEntity.status(HttpStatus.NO_CONTENT).body("Paciente deletado(a)");
+//        } else {
+//            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("Paciente não encontrado(a)");
+//        }
+//        return response;
+//    }
+//
+//    @PutMapping
+//    public ResponseEntity<Paciente> atualizar(@RequestBody Paciente paciente) {
+//        ResponseEntity<Paciente> response = null;
+//
+//        if (paciente.getId() != null && paciente.getEndereco().getId() != null)
+//            response = ResponseEntity.ok(pacienteService.atualizar(paciente));
+//        else
+//            response = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+//
+//        return response;
+//    }
 }
