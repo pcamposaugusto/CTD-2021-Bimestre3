@@ -18,7 +18,7 @@ public class DentistaController {
     @GetMapping("/buscarPorId")
     public String buscarPorId(Model model) {
         Dentista dentista = dentistaService.buscarPorId(2);
-        model.addAttribute("nome", dentista.getNome()).addAttribute("sobrenome", dentista.getSobrenome()).addAttribute("matricula", dentista.getMatricula()).addAttribute("paciente", dentista.getPaciente());
+        model.addAttribute("nome", dentista.getNome()).addAttribute("sobrenome", dentista.getSobrenome()).addAttribute("matricula", dentista.getMatricula()).addAttribute("paciente", dentista.getPaciente().getNome() + " " + dentista.getPaciente().getSobrenome());
         return "index";
     }
 
