@@ -37,7 +37,7 @@ public class DentistaController {
 
         if(dentistaService.buscarPorId(id) != null) {
             dentistaService.deletar(id);
-            response = ResponseEntity.status(HttpStatus.NO_CONTENT).body("Dentista deletado(a)");
+            response = ResponseEntity.status(HttpStatus.ACCEPTED).body("Dentista deletado(a)");
         } else {
             response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("Dentista não encontrado(a)");
         }

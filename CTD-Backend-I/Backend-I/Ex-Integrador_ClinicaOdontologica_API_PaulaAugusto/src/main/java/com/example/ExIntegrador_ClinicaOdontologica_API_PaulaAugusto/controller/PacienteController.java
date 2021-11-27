@@ -37,7 +37,7 @@ public class PacienteController {
 
         if(pacienteService.buscarPorId(id) != null) {
             pacienteService.deletar(id);
-            response = ResponseEntity.status(HttpStatus.NO_CONTENT).body("Paciente deletado(a)");
+            response = ResponseEntity.status(HttpStatus.ACCEPTED).body("Paciente deletado(a)");
         } else {
             response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("Paciente não encontrado(a)");
         }
