@@ -1,7 +1,6 @@
 package com.example.ExIntegrador_ClinicaOdontologica_API_PaulaAugusto.service.impl;
 
 import com.example.ExIntegrador_ClinicaOdontologica_API_PaulaAugusto.model.Paciente;
-import com.example.ExIntegrador_ClinicaOdontologica_API_PaulaAugusto.repository.PacienteRepositoryImpl;
 import com.example.ExIntegrador_ClinicaOdontologica_API_PaulaAugusto.service.OdontoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,41 +10,52 @@ import java.util.Map;
 
 @Service
 public class PacienteServiceImpl implements OdontoService<Paciente> {
-//    private static Map<Integer, Paciente> pacienteMap = new HashMap<>();
-//    private static Integer idGlobal = 1;
+    private static Map<Integer, Paciente> pacienteMap = new HashMap<>();
+    private static Integer idGlobal = 1;
 
     @Autowired
-    private PacienteRepositoryImpl pacienteRepository;
+    private EnderecoServiceImpl enderecoService;
 
     @Override
     public Paciente salvar(Paciente paciente) {
-        return pacienteRepository.salvar(paciente);
+        paciente.setIdEndereco(enderecoService.salvar(paciente.getEndereco()).getId());
+        paciente.setId(idGlobal);
+        pacienteMap.put(idGlobal, paciente);
+        idGlobal++;
+        return paciente;
     }
 
-//    @Override
-//    public Map<Integer, Paciente> buscarTodos() {
-//        pacienteMap.forEach((chave, paciente) -> {
-//            paciente.setEndereco(enderecoService.buscarPorId(paciente.getIdEndereco()));
-//        });
-//        return pacienteMap;
-//    }
+    @Override
+    public Map<Integer, Paciente> buscarTodos() {
+        pacienteMap.forEach((chave, paciente) -> {
+            paciente.setEndereco(enderecoService.buscarPorId(paciente.getIdEndereco()));
+        });
+        return pacienteMap;
+    }
 
-//    @Override
-//    public void deletar(Integer id) {
-//        enderecoService.deletar(buscarPorId(id).getIdEndereco());
-//        pacienteMap.remove(id);
-//    }
+    @Override
+    public void deletar(Integer id) {
+        enderecoService.deletar(buscarPorId(id).getIdEndereco());
+        pacienteMap.remove(id);
+    }
 
     @Override
     public Paciente buscarPorId(Integer id) {
-        return pacienteRepository.buscarPorIdRepo(id);
+        Paciente paciente = new Paciente();
+        try{
+            paciente = pacienteMap.get(id);
+            paciente.setEndereco(enderecoService.buscarPorId(paciente.getIdEndereco()));
+        } catch (Exception e){
+            return null;
+        }
+        return paciente;
     }
 
-//    @Override
-//    public Paciente atualizar(Paciente paciente) {
-//        enderecoService.atualizar(paciente.getEndereco());
-//        pacienteMap.put(paciente.getId(), paciente);
-//        return paciente;
-//    }
+    @Override
+    public Paciente atualizar(Paciente paciente) {
+        enderecoService.atualizar(paciente.getEndereco());
+        pacienteMap.put(paciente.getId(), paciente);
+        return paciente;
+    }
 }
 
